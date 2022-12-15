@@ -1,0 +1,53 @@
+:root {
+  --fg: #FBF1C7;
+  --bg: #282828;
+  --base00: #282828;
+  --base01: #3c3836;
+  --base02: #504945;
+  --base03: #665C54;
+  --base04: #BDAE93;
+  --base05: #D5C4A1;
+  --base06: #EBDBB2;
+  --base07: #FBF1C7;
+  --base08: #FB4934;
+  --base09: #FE8019;
+  --base0A: #FABD2f;
+  --base0B: #B8BB26;
+  --base0C: #8EC07C;
+  --base0D: #83A598;
+  --base0E: #D3869B;
+  --base0F: #d65d0e;
+}
+
+* {
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 14px;
+}
+
+body {
+  background: var(--bg);
+}
+
+nav ul {
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  margin: 0px 5px;
+  font-weight: 900;
+  background-color: var(--bg);
+  color: var(--base08);
+}
+
+nav ul li:hover {
+  text-decoration: underline .15em var(--fg);
+  color: var(--fg);
+  transition: text-decoration 200ms, color 200ms;
+  transition-timing-function: ease-in;
+
+}
